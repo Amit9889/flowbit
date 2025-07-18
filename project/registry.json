@@ -1,0 +1,28 @@
+{
+  "tenants": {
+    "logisticsco": {
+      "name": "LogisticsCo",
+      "screens": [
+        {
+          "id": "support-tickets",
+          "name": "Support Tickets",
+          "url": "http://localhost:3002/remoteEntry.js",
+          "module": "./SupportTicketsApp",
+          "path": "/tickets"
+        }
+      ]
+    },
+    "retailgmbh": {
+      "name": "RetailGmbH",
+      "screens": [
+        {
+          "id": "support-tickets",
+          "name": "Support Tickets",
+          "url": "http://localhost:3002/remoteEntry.js",
+          "module": "./SupportTicketsApp",
+          "path": "/tickets"
+        }
+      ]
+    }
+  }
+}
